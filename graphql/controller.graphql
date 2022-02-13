@@ -1,0 +1,21 @@
+type Query {
+  getPersons:[Person]
+  getPerson(personId:ID!):Person
+}
+type Mutation {
+  createPerson (
+    name:String
+    age:Int
+  ):String
+  updatePerson (
+    personId:ID!
+    name:String
+    age:Int
+  ):String
+  deletePerson(personId:ID!):String
+}
+type Person {
+ personId:ID!
+ name:String
+ age:Int
+}
