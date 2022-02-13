@@ -1,5 +1,16 @@
 ###Experiment Purpose Apollo + GraphQL + MySQL
 
+For install in the folder
+```
+yarn add sequelize-auto sequelize-cli mysql -g apollo-server graphql sequelize mysql2 nodemon
+
+npx sequelize init:config
+
+npx sequelize init:models
+
+npx sequelize-auto -o models -d youtuber -h localhost -u youtuber -p 3306 -x 123456 -e mysql
+```
+
 1. Find All Record
 ```
 {
