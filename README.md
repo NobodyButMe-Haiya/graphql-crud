@@ -11,6 +11,10 @@ npx sequelize init:models
 npx sequelize-auto -o models -d youtuber -h localhost -u youtuber -p 3306 -x 123456 -e mysql
 ```
 
+For Database 
+
+1. It's the same with : https://github.com/NobodyButMe-Haiya/React-App-2022/blob/master/youtuber.sql
+
 1. Find All Record
 ```
 {
